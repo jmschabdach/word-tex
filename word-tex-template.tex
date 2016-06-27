@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+
+\usepackage{pslatex}
+\usepackage[margin=.85in]{geometry}
+\usepackage{mathptmx}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\doublespacing
+\usepackage{titlesec}
+% Format section headings
+\titleformat{\section}{\normalfont\fontsize{12}{12}\bfseries}{\thesection}{.5em}{}
+\renewcommand\thesection{\arabic{section}.0}
+% Format subsection headings
+\titleformat{\subsection}{\normalfont\fontsize{12}{12}\bfseries}{\thesubsection}{.5em}{}
+\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}}
+
+% Dummy text:
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+% Bibliography
+\bibliographystyle{ieeetr}
+
+\begin{document}
+
+\begin{singlespacing}
+\noindent{Author Name}
+
+\noindent{Heading Line 1}
+
+\noindent{Heading Line 2}
+
+\centering{\textbf{Title}}
+
+\end{singlespacing}
+
+%----------------- Body --------------------
+
+\section{First Section: The Basics}
+
+\blindtext
+
+\section{Second Section: Subsections and Subsubsections}
+
+\blindtext
+
+\subsection{A Subsection}
+
+\blindtext
+
+\subsection{Another Subsection}
+
+\blindtext
+
+\subsubsection{Oh Man, Here's a Subsubsection}
+
+\blindtext
+
+\subsubsection{Now There's 2 Subsubsections}
+
+\blindtext
+
+\section{Third Section: Citations}
+% Filler text generated from http://coffeeipsum.com/
+
+A, pumpkin spice, saucer, dark whipped as iced white irish, barista ristretto mug percolator froth. Skinny, black id shop id grinder, crema strong, skinny crema strong medium doppio. So seasonal, milk, irish cultivar cappuccino, trifecta cappuccino, extra crema wings foam coffee, chicory that single shot espresso grinder. Milk whipped extra, americano, skinny seasonal milk black, macchiato, steamed dark, french press milk grounds, kopi-luwak medium, trifecta as barista café au lait half and half milk mocha. Rich, irish single origin latte cream, grinder galão, strong doppio cinnamon dripper fair trade spoon black cream flavour. Mocha doppio grinder americano sweet grounds, crema dripper, eu so organic single shot eu variety flavour pumpkin spice coffee grinder cinnamon. Saucer, id siphon single shot kopi-luwak irish sit shop, filter in fair trade caramelization sugar \cite{article1}.
+
+So, rich americano, chicory sugar aromatic carajillo seasonal espresso, saucer, crema café au lait grinder crema black organic, single origin, et macchiato roast whipped medium. Mazagran, caffeine, kopi-luwak aftertaste, bar blue mountain brewed french press shop sweet extra iced sit doppio. Grounds con panna strong sweet cultivar caffeine body viennese kopi-luwak cortado dark robust doppio sweet siphon irish aroma. Kopi-luwak, french press, con panna barista wings, mocha, single shot foam cup cappuccino, single shot at id saucer aged. Dripper wings, cup cultivar americano whipped bar a, fair trade to go redeye organic instant dripper et coffee roast aroma, mocha latte cup extraction redeye french press. Americano, cortado robusta, mug so cinnamon filter eu, ut acerbic percolator in beans \cite{article2}.
+
+Espresso aftertaste, turkish, dripper con panna, lungo foam con panna est, doppio, saucer french press ristretto fair trade roast flavour siphon americano cappuccino robust whipped. Milk carajillo eu, sweet irish aftertaste, half and half medium, that to go, brewed, cup qui, crema eu and coffee café au lait sit kopi-luwak bar redeye. Single origin seasonal caffeine acerbic flavour, saucer, id, decaffeinated whipped blue mountain, espresso flavour carajillo pumpkin spice decaffeinated doppio rich espresso wings. Single shot, dark, medium mazagran rich body, sweet, shop, half and half, est barista body redeye macchiato aged. Strong white aromatic siphon sweet trifecta aftertaste cream, that a decaffeinated, caffeine sit, white, barista black, seasonal, mazagran frappuccino carajillo robusta wings latte trifecta. Chicory, saucer café au lait dripper, froth, sweet, cream coffee, seasonal java barista extraction, pumpkin spice, cup strong, irish, café au lait filter caffeine sit café au lait. So dripper cinnamon ristretto trifecta seasonal café au lait grinder iced eu, est so, whipped crema, organic, barista extraction redeye blue mountain cortado \cite{inbook} \cite{wholebook}.
+
+\bibliography{resources.bib}
+
+\end{document}
